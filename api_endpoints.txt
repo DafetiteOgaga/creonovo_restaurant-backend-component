@@ -1,0 +1,17 @@
+webpage(s):
+/
+
+use post method via insomnia to get user-token:
+/api-token-auth/
+
+API endpoints:
+/menu/
+/menu/<int:pk>
+/api/booking/
+/api/booking/<int:pk>/
+/auth/users/
+/auth/users/<username>/
+
+8a5443df88dc2077edf306e31e78f6f33f2f9f34
+username: osinachi
+password: dafetite

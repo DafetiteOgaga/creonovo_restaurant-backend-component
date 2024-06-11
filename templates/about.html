@@ -1,0 +1,60 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<section>
+  <article>
+    <h1>About Us</h1>
+    <!--Begin row-->
+    <div class="row">
+      <!--Begin col-->
+      <div class="column">
+        <p>
+          Based in Lagos, Nigeria, Creonovo is a family owned
+          restaurant, focused on traditional recipes served with a
+          modern twist.
+        </p>
+        <p>
+          The chefs draw inspiration from Calabar's soup culture
+          and have a menu of 12-15 items that they rotate seasonally.
+        </p>
+
+        <p>
+          The restaurant has a rustic and relaxed atmosphere with moderate
+          prices, making it a popular place for a meal any time of the day.
+        </p>
+
+        <p>
+          Creonovo is owned by Dafetite Ogaga, who is based in Lagos to
+          pursue his dream of owning a restaurant.
+        </p>
+
+        <p>
+          To craft the menu, Dafetite relies on family recipes and his
+          experience as a chef from around the world.
+        </p>
+
+        <p>
+          He sometimes join the marketing team to promote the restaurant
+          and works to expand the menu beyond classic Nigerian dishes
+          to incorporate additional cuisines from other countries.
+        </p>
+      </div>
+      <!--End col-->
+
+      <!--Begin col-->
+      <div class="column">
+        <figure class="figure">
+          <img
+            class="author"
+            src="{% static 'restaurant/img/dafetite.jpeg' %}"
+            alt="Dafetite Ogaga"
+          />
+          <figcaption class="figure-caption">
+            Owner Dafetite Ogaga.
+          </figcaption>
+        </figure>
+      </div>
+      <!--End col-->
+    </div>
+    <!--End row-->
+  </article>
+</section>
+{% endblock %}
